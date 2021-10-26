@@ -1,0 +1,28 @@
+.secondary-btn{
+    margin-left: 6.2rem;
+    a{
+        .btn-text{
+            padding: 1rem 1.8rem;
+            background-color: var(--color-secondary);
+            outline: none;
+            border-radius: .2rem;
+            border: none;
+        }
+    }
+}
+
+.primary-btn{
+    a{
+        .btn-text{
+            color: var(--color-white);
+            padding: 1.4rem 3rem;
+            background: var(--color-black);
+            border-radius: .2rem;
+            border: none;
+            transition: all 0.5s ease;
+            &:hover{
+                color: var(--color-secondary);
+            }
+        }
+    }
+}

@@ -1,0 +1,445 @@
+//services section..........
+.services {
+  margin: 0 !important;
+  padding-block: 6.8rem;
+  .container {
+    .row {
+      margin-bottom: 4rem !important;
+      .col-12 {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .primary-btn {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+//about us section...........
+.about_us-section {
+  background: var(--background-about-us);
+  padding: 8rem 10rem;
+  height: 100vh;
+  .container {
+    .row {
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      .col {
+        .about_us-img {
+          position: absolute;
+          top: 0;
+          left: 27.3rem;
+        }
+      }
+      .col-6 {
+        .about-us-card {
+          position: absolute;
+          top: 9.6rem;
+          left: 64.3rem;
+        }
+      }
+    }
+  }
+}
+
+//work flow section..........
+.work-flow {
+  padding-block: 8rem;
+  .container {
+    .row {
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      .col-12 {
+        .work-flow-title {
+          margin-bottom: 5rem;
+        }
+      }
+      .col-4 {
+        margin-bottom: 5rem;
+      }
+    }
+    .primary-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+//our team section..........
+.our-team {
+  padding-block: 5rem;
+  .container {
+    .row {
+      .col-12 {
+        display: flex;
+        justify-content: center;
+        h2 {
+          margin-bottom: 5rem;
+        }
+      }
+    }
+    .primary-btn {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+// blog section...........
+.blog {
+  padding-block: 5rem;
+  .container {
+    .row {
+      .col-12 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .blog-title {
+          margin-bottom: 4.8rem;
+        }
+      }
+    }
+  }
+}
+
+//join us section.......
+.join_us {
+  padding-block: 6.8rem;
+  .col {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+    .join_us-title {
+      margin-bottom: 5rem;
+      h2 {
+        max-width: 30ch;
+        margin-bottom: 3.2rem;
+      }
+    }
+  }
+}
+
+//mobile nails section...........
+.mobile_nails {
+  padding-block: 6.8rem;
+  .row {
+    margin-bottom: 6.8rem;
+    .col-12 {
+      .mobile_nails-title {
+        h2,
+        h3 {
+          margin-bottom: 5.4rem;
+        }
+      }
+    }
+    .col-8 {
+      margin-bottom: 4.8rem;
+      .mobile_nails-details {
+        h5 {
+          margin-bottom: 1.6rem;
+        }
+        h6 {
+          margin-bottom: 2.4rem;
+        }
+        .para {
+          max-width: 78ch;
+        }
+      }
+    }
+  }
+  .main-btn {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+//mobile facials
+.mobile_facials {
+  padding-block: 5rem;
+  .row {
+    justify-content: center;
+    align-items: center;
+    .col {
+      display: flex;
+      justify-content: center;
+      .mobile_facials-img {
+        margin-bottom: 2rem;
+      }
+    }
+    .col-12 {
+      display: flex;
+      padding: 0 30rem;
+      .caption {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+        margin-bottom: 2.4rem;
+      }
+      .para {
+        max-width: 71ch;
+        margin: auto;
+        margin-bottom: 2rem;
+      }
+      .mobile_facials-contents-img {
+        display: flex;
+        justify-content: center;
+        margin: 3rem 0 1rem 0;
+      }
+      h3 {
+        margin-left: 6rem;
+      }
+    }
+  }
+}
+
+// Media Queries............................................
+
+//Start of ipad/tablet media queries
+@media screen and (max-width: 768px) {
+  // section services
+  .services {
+    .row {
+      .col-12 {
+        text-align: center;
+      }
+      .col-4 {
+        width: 50%;
+        .card-services {
+          padding: 2rem;
+        }
+      }
+    }
+  }
+
+  // about-us-section
+  .about_us-section {
+    padding: 5rem 4rem !important;
+    height: 100% !important;
+    .container {
+      .row {
+        flex-direction: column;
+        .col {
+          width: 100% !important;
+          justify-content: center;
+          display: flex;
+          .about_us-img {
+            left: 0 !important;
+            position: relative !important;
+          }
+        }
+        .col-6 {
+          justify-content: center;
+          display: flex;
+          width: 100%;
+          .about-us-card {
+            left: 24.6rem;
+            top: 7.8rem;
+            padding: 3rem;
+            position: absolute;
+            text-align: center;
+            .primary-btn {
+              margin-bottom: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //blog
+  .blog {
+    .container {
+      .row {
+        flex-wrap: wrap;
+        .col-4 {
+          width: 50% !important;
+        }
+      }
+    }
+  }
+
+  // work-flow
+  .work-flow {
+    .container {
+      .row {
+        .col-4 {
+          .work-flow-card {
+            padding: 1.4rem;
+          }
+        }
+      }
+    }
+  }
+
+  //mobile_facials
+  .mobile_facials {
+    .row {
+      .col-12 {
+        padding: 0;
+        justify-content: center;
+        h2 {
+          max-width: 30ch;
+        }
+      }
+    }
+  }
+
+  //footer form
+  form .input-box input{
+    width: 60rem;
+  }
+}
+
+//end of ipad/tablet media queries
+
+
+//Start of mobile media queries
+@media screen and (max-width: 480px) {
+  // section
+  .services {
+    .container {
+      .row {
+        .col-12 {
+          text-align: center;
+        }
+        .col-4 {
+          width: 100%;
+          .card-services {
+            padding: 2rem;
+          }
+        }
+      }
+    }
+  }
+
+  // about-us-section
+  .about_us-section {
+    padding: 2rem !important;
+    height: 100% !important;
+    .container {
+      .row {
+        flex-direction: column;
+        .col {
+          width: 100% !important;
+          .about_us-img {
+            left: 0 !important;
+            position: relative !important;
+          }
+        }
+        .col-6 {
+          width: 100%;
+          .about-us-card {
+            left: 0 !important;
+            top: 0 !important ;
+            padding: 1rem;
+            position: relative !important;
+            text-align: center;
+            .primary-btn {
+              margin-bottom: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // work-flow
+  .work-flow {
+    .container {
+      .row {
+        .col-4 {
+          width: 100%;
+          margin-bottom: 0 !important;
+        }
+      }
+    }
+  }
+
+  //blog
+  .blog {
+    .container {
+      .row {
+        flex-direction: column;
+        .col-4 {
+          width: 100% !important;
+          .blog-card {
+            max-width: none;
+            .blog-card-img-box {
+              width: 100% !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // our-team
+  .our-team {
+    .container {
+      .row {
+        .col-12 {
+          .our-team-card {
+            flex-direction: column;
+            .our-team-card-info-title {
+              max-width: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //mobile nails
+  .mobile_nails {
+    .row {
+      flex-direction: column;
+      .col-8 {
+        width: 100%;
+      }
+      .col-4 {
+        width: 100%;
+        .mobile_nails-img-card {
+          margin-bottom: 4rem;
+        }
+        .work-flow-card {
+          padding: 2rem !important;
+        }
+      }
+    }
+  }
+
+  //mobile_facials
+  .mobile_facials {
+    .row {
+      .col {
+        .mobile_facials-img {
+          width: 100%;
+        }
+      }
+      .col-12 {
+        padding: 2rem;
+        h2 {
+          max-width: 30ch;
+          font-size: 3rem;
+        }
+        h3{
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+    //footer form
+    form .input-box input{
+      width: 36rem;
+    }
+}
+
+//end of mobile media queries

@@ -1,0 +1,188 @@
+.card-services{
+    padding: 0 4rem 3.4rem 4rem;
+    &-img{
+        margin-bottom: 1rem;
+        img{
+            border-radius: .2rem;
+        }
+    }
+    &-title{
+        display: inline-block;
+        margin-bottom: 1.6rem;
+        position: relative;
+        &::after{
+            width: 100%;
+            height: .2rem;
+            content: " ";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: var(--color-black);
+        }
+    }
+}
+
+.about-us-card{
+    background: var(--color-white);
+    max-width: 47rem;
+    padding: 3rem 4rem 4rem 4rem;
+    &-title{
+        margin-bottom: 2.3rem;
+    }
+    &-para{
+        margin-bottom: 2.4rem;
+    }
+}
+
+.testimonial-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    &-img-box{
+        width: 16%;
+        margin-bottom: 3rem;
+        img{
+            border-radius: 50%;
+        }
+    }
+    &-title{
+        margin-bottom: 1.5rem;
+    }
+    &-para{
+        margin-bottom: 8rem;
+        max-width: 42ch;
+    }
+}
+
+.blog-card{
+    padding: 0 1.2rem 3rem 1.2rem;
+    max-width: 36rem;
+    &-img-box{
+        margin-bottom: 1.5rem;
+        img{
+            border-radius: .2rem;
+        }
+    }
+    &-about{
+        margin-bottom: .8rem;
+    }
+    &-title{
+        margin-bottom: 1.6rem;
+    }
+    &-para{
+        margin-bottom: 2.4rem;
+    }
+    &-link{
+        .btn-text{
+            position: relative;
+            display: inline-block;
+            &::after{
+                position: absolute;
+                width: 100%;
+                height: .1rem;
+                background: var(--color-primary);
+                content: " ";
+                bottom: 0;
+                left: 0;
+            }
+        }
+    }
+}
+
+.work-flow-card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2.8rem 2.8rem 4rem 2.8rem;
+    &-title{
+        margin-bottom: 3.2rem;
+    }
+    &-img-box{
+        margin-bottom: 2.6rem;
+        width: 50%;
+        img{
+            border-radius: 50%;
+        }
+    }
+    &-para{
+        max-width: 32ch;
+    }
+}
+
+.work-flow-card-line{
+    border-top: 0;
+    border-bottom: 0;
+    border-left: .1rem;
+    border-right: .1rem;
+    outline: none;
+    border-style: solid;
+    border-color: var(--color-primary);
+}
+
+.corporate-card-services{
+    padding: 0 4rem 3.4rem 4rem;
+    &-img{
+        margin-bottom: 1rem;
+        img{
+            border-radius: .2rem;
+        }
+    }
+    &-title{
+        display: inline-block;
+        margin-bottom: 1.6rem;
+        position: relative;
+        h5{
+            max-width: 20ch;
+        }
+    }
+}
+
+.our-team-card{
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 5.4rem;
+    &-img-box{
+        position: relative;
+        &::after{
+            background: var(--color-black);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            content: " ";
+            top: -1rem;
+            left: -1rem;
+        }
+        img{
+            position: relative;
+            z-index: 222;
+        }
+    }
+    &-info{
+        padding-block: 1rem;
+        &-title{
+            margin-bottom: 1.8rem;
+            max-width: 10ch;
+        }
+        &-para{
+            max-width: 41ch !important;
+        }
+    }
+}
+
+.mobile_nails-img-card{
+    background: var(--background-about-us);
+    padding: 2.4rem 1.6rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    position: relative;
+    &-title{
+        margin-bottom: 2.5rem;
+    }
+}
