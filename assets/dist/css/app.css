@@ -12307,6 +12307,17 @@ form .primary-btn a .btn-text {
 .nav .container .row .col .navbar-links ul li a:hover {
   color: var(--color-secondary);
 }
+.nav .container .row .col .navbar-links ul li .active {
+  color: var(--color-secondary);
+  transition: all 0.4s ease;
+}
+.nav .container .row .col .navbar-links ul li .active::after {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 0.2rem;
+  background-color: var(--color-secondary);
+}
 
 @media screen and (max-width: 768px) {
   nav .container .row .col-2 {
