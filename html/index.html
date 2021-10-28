@@ -14,53 +14,103 @@
 
 <body>
     <!-- navbar -->
-    <nav class="nav">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <div class="row">
-                <div class="col-2">
-                    <div class="navbar-logo">
-                        <a href="./index.html"><img src="../assets/src/images/logo.svg" alt=""
-                                class="img-responsive"></a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="navbar-links">
-                        <ul>
-                            <li><a href="./index.html" class="para active">Home</a></li>
-                            <li><a href="./services.html" class="para">Services</a></li>
-                            <li><a href="./corporate.html" class="para">Corporate</a></li>
-                            <li><a href="./ourteam.html" class="para">Our Team</a></li>
-                            <li><a href="./blog.html" class="para">Blog</a></li>
-                            <li><a href="./joinus.html" class="para">Join us</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-2">
+            <a class="navbar-brand" href="./index.html">
+                <img src="../assets/src/images/logo.svg" alt="nav-logo" class="img-responsive" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link para activee" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link para" href="./services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link para" href="./corporate.html">Corporate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link para" href="./ourteam.html">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link para" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link para" href="./joinus.html">Join Us</a>
+                    </li>
                     <div class="secondary-btn">
                         <a href=""><button class="btn-text">BOOK NOW</button></a>
                     </div>
-                </div>
+                </ul>
             </div>
         </div>
     </nav>
     <!-- header -->
-    <header class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="header-hero">
-                        <h1>Australia’s Leading, At Home Mobile Beauty & Wellness Service.</h1>
-                        <p class="para">We are here for you, 6 am - 9 pm, 7 days a week, Australia wide. Whether it’s a
-                            Same
-                            Day Booking or for a date in advance!</p>
-                        <div class="primary-btn">
-                            <a href=""><button class="btn-text">BOOK NOW</button></a>
+    <header>
+        <div class="container-fluid">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="2000">
+                        <img src="../assets/src/images/header-bg-1.png" class="d-block w-100 img-responsive img-fluid"
+                            alt="..." />
+                        <div class="carousel-caption">
+                            <h1>Australia’s Leading, At Home Mobile Beauty & Wellness Service.</h1>
+                            <p class="para">We are here for you, 6 am - 9 pm, 7 days a week, Australia wide. Whether
+                                it’s a
+                                Same
+                                Day Booking or for a date in advance!</p>
+                            <div class="primary-btn">
+                                <a href=""><button class="btn-text">BOOK NOW</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                        <img src="../assets/src/images/header-bg-2.png" class="d-block w-100 img-responsive"
+                            alt="..." />
+                        <div class="carousel-caption">
+                            <h1 style="color:white">
+                                Australia’s Leading, At Home Mobile Beauty & Wellness Service.
+                            </h1>
+                            <p class="para" style="color:white">
+                                We are here for you, 6 am - 9 pm, 7 days a week, Australia
+                                wide. Whether it’s a Same Day Booking or for a date in
+                                advance!
+                            </p>
+                            <div class="primary-btn">
+                                <a href=""><button class="btn-text">BOOK NOW</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                        <img src="../assets/src/images/header-bg-3.png" class="d-block w-100 img-responsive"
+                            alt="..." />
+                        <div class="carousel-caption">
+                            <h1 style="color:white">
+                                Australia’s Leading, At Home Mobile Beauty & Wellness Service.
+                            </h1>
+                            <p class="para" style="color:white"> 
+                                We are here for you, 6 am - 9 pm, 7 days a week, Australia
+                                wide. Whether it’s a Same Day Booking or for a date in
+                                advance!
+                            </p>
+                            <div class="primary-btn">
+                                <a href=""><button class="btn-text">BOOK NOW</button></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+
     <!-- main -->
     <main>
         <!-- services -->
@@ -198,7 +248,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="about_us-img">
-                            <img src="../assets/src/images/about-us-img.png" alt="about-us-img " class="img-responsive">
+                            <img src="../assets/src/images/salon.png" alt="about-us-img " class="img-responsive">
                         </div>
                     </div>
                     <div class="col-6">
