@@ -11739,7 +11739,7 @@ form .primary-btn a .btn-text {
 
 @media screen and (max-width: 768px) {
   .testimonial .row .col-12 .testimonial-card .testimonial-card-img-box {
-    width: 50%;
+    width: 40%;
   }
   .testimonial .row .col-4 {
     width: 50%;
@@ -12128,6 +12128,9 @@ header .carousel-caption .para {
 header .carousel-caption .primary-btn {
   display: flex;
 }
+header .carousel-caption .white {
+  color: var(--color-white);
+}
 
 @media screen and (max-width: 768px) {
   header .carousel-inner {
@@ -12148,7 +12151,7 @@ header .carousel-caption .primary-btn {
 }
 @media screen and (max-width: 480px) {
   header .carousel-caption {
-    top: 34rem;
+    top: 30rem;
   }
   header .carousel-caption h1, header .carousel-caption .h1 {
     font-size: 3rem;
@@ -12360,7 +12363,7 @@ header .carousel-caption .primary-btn {
   }
 
   .navbar-collapse {
-    padding-block: 10rem;
+    padding-block: 2rem;
   }
 }
 @media screen and (max-width: 480px) {
